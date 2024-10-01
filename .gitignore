@@ -1,0 +1,73 @@
+# Learn more https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files
+
+# dependencies
+node_modules/
+SPMDependencies/.swiftpm/xcode/package.xcworkspace
+SPMDependencies/.swiftpm/xcode/xcuserdata
+.build
+SPMDependencies/XCFrameworks
+SPMDependencies/DerivedData
+SPMDependencies/SPMDependencies.xcworkspace/xcuserdata/*
+.artifactory_credentials
+.yarn
+vendor
+
+# Expo
+.expo/
+dist/
+web-build/
+expo-settings/example
+expo-settings/build
+
+# Native
+*.orig.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+
+# Metro
+.metro-health-check*
+
+# debug
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# macOS
+.DS_Store
+*.pem
+
+# local env files
+.env*.local
+.env
+
+# idea
+/**/.idea/*
+
+# typescript
+*.tsbuildinfo
+
+# Sentry 
+sentry.properties
+
+# Build Support
+apps/connie/ios/build_support/
+apps/connie/ios/build.properties.local
+apps/connie/ios/build/reports
+
+# js coverage
+coverage/
+.scannerwork/
+
+#ios build
+build_ios/
+ios_artifacts/
+
+#terraform, dashboards related
+.terraform
+*.tfvars
+
+#ruby
+.bundle/
