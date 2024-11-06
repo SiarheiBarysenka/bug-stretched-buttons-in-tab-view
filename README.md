@@ -1,3 +1,5 @@
+https://github.com/software-mansion/react-native-reanimated/issues/6672
+
 # Installation
 
 1. Clone the repo
